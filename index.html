@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- IMPROVED: Character encoding and viewport are placed first
+         so text displays correctly and the page supports mobile screens. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- IMPROVED: Confirm that this stylesheet path matches
+         your actual project folders and filename. -->
+    <link rel="stylesheet" href="static/css/styles.css">
+
+    <title>Ocean Rose Apartments | Watamu, Kenya</title>
+</head>
+
+<body>
+
+    <!-- =====================================================
+         1. HEADER AND NAVIGATION
+         ===================================================== -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h1>Ocean Rose Apartments</h1>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#apartments">Apartments</a></li>
+                    <li><a href="#amenities">Amenities</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- =====================================================
+         2. HERO SECTION
+         ===================================================== -->
+    <section id="hero" class="hero">
+
+        <p>WELCOME TO WATAMU</p>
+
+        <h1>Your Coastal Escape Starts Here</h1>
+
+        <p>
+            Discover a relaxing home away from home at
+            Ocean Rose Apartments in Watamu, Kenya. Whether you
+            are planning <br> a romantic  getaway, a family holiday,
+            or a peaceful break by the coast, find a comfortable
+            space to relax and enjoy the beauty of coastal living.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#apartments">Explore Our Apartments</a>
+            <a href="#booking">Make a Booking Enquiry</a>
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         3. MAIN WEBSITE CONTENT
+         ===================================================== -->
+    <main class="container">
+
+
+        <!-- =================================================
+             4. APARTMENTS SECTION
+             ================================================= -->
+        <section id="apartments" class="apartment-section">
+
+            <h2>Find Your Perfect Stay</h2>
+
+            <p>
+                Choose an accommodation option that suits your
+                travel plans, from a cosy studio to a spacious
+                family apartment.
+            </p>
+
+            <div class="apartment-cards">
+
+                <div class="card">
+                    <h3>Studio Apartment</h3>
+
+                    <img
+                        src="static/images/studioapartment.jpg"
+                        alt="Studio apartment accommodation"
+                        loading="lazy"
+                    >
+
+                    <p>
+                        A cosy accommodation option for solo
+                        travellers and couples seeking a
+                        comfortable coastal getaway.
+                    </p>
+
+                    <a href="#booking">Make a Booking Enquiry</a>
+                </div>
+
+
+                <div class="card">
+                    <h3>One-Bedroom Apartment</h3>
+
+                    <img
+                        src="static/images/One-Bedroom-Apartment.jpg"
+                        alt="One-bedroom apartment accommodation"
+                        loading="lazy"
+                    >
+
+                    <p>
+                        A spacious option for couples or small
+                        families, offering a comfortable living
+                        space and modern amenities.
+                    </p>
+
+                    <a href="#booking">Make a Booking Enquiry</a>
+                </div>
+
+
+                <div class="card">
+                    <h3>Family Apartment</h3>
+
+                    <img
+                        src="static/images/Family-Apartment.jpg"
+                        alt="Family apartment accommodation"
+                        loading="lazy"
+                    >
+
+                    <p>
+                        A spacious option for families or groups,
+                        providing plenty of room for a comfortable
+                        stay.
+                    </p>
+
+                    <a href="#booking">Make a Booking Enquiry</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =================================================
+             5. AMENITIES SECTION
+             ================================================= -->
+        <section id="amenities" class="amenities">
+
+            <h2>Comfort in Every Detail</h2>
+
+            <p>
+                Experience the perfect blend of comfort and
+                convenience with our thoughtfully designed amenities.
+            </p>
+            <h3>Amenities to Enjoy</h3>
+
+            <ul>
+                <li>Swimming Pool</li>
+                <li>Free Wi-Fi</li>
+                <li>Fully Equipped Kitchen</li>
+                <li>Beach Access</li>
+                <li>Secure Parking</li>
+                <li>Comfortable Furnished Spaces</li>
+                <li>Accommodation Options for Different Travel Needs</li>
+            </ul>
+
+        </section>
+
+
+        <!-- =================================================
+             6. LOCATION SECTION
+             ================================================= -->
+        <section id="location" class="location">
+
+            <h2>Discover Watamu</h2>
+
+            <p>
+                Experience the beautiful Kenyan coast, from sandy
+                beaches and Indian Ocean views to local restaurants
+                and coastal attractions. Watamu offers a relaxing
+                destination for couples, families, and travellers
+                looking to explore the coast.
+            </p>
+
+            <h3>Find Us on the Map</h3>
+
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15932.273066841972!2d39.85636693251682!3d-3.333311724716441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x183e2c48ec0b41e9%3A0xc1d9dfa6d043238d!2sArabuko%20Sokoke%20Forest!5e0!3m2!1sen!2ske!4v1792118802995!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </iframe>
+
+        </section>
+
+
+        <!-- =================================================
+             7. BOOKING SECTION
+             ================================================= -->
+        <section id="booking" class="booking">
+
+            <div class="form">
+
+                <h2>Book Your Stay</h2>
+
+                <!-- NOTE:
+                     This form requires a working server-side handler.
+                     The PHP filename alone does not process bookings. -->
+                <form action="submit_booking.php" method="POST">
+
+                    <label for="name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        required
+                    >
+
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                    >
+
+                    <label for="phone">Phone Number:</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        autocomplete="tel"
+                        required
+                    >
+
+                    <label for="apartment">Select Apartment Type:</label>
+                    <select id="apartment" name="apartment" required>
+                        <option value="">Select an apartment</option>
+                        <option value="studio">Studio Apartment</option>
+                        <option value="one-bedroom">One-Bedroom Apartment</option>
+                        <option value="family">Family Apartment</option>
+                    </select>
+
+                    <label for="checkin">Check-in Date:</label>
+                    <input
+                        type="date"
+                        id="checkin"
+                        name="checkin"
+                        required
+                    >
+
+                    <label for="checkout">Check-out Date:</label>
+                    <input
+                        type="date"
+                        id="checkout"
+                        name="checkout"
+                        required
+                    >
+
+                    <label for="guests">Number of Guests:</label>
+                    <select id="guests" name="guests" required>
+                        <option value="">Select number of guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests or More</option>
+                    </select>
+
+                    <label for="special-requests">Special Requests:</label>
+                    <textarea
+                        id="special-requests"
+                        name="special_requests"
+                        rows="4"
+                        placeholder="Any special requests or accommodations needed?"
+                    ></textarea>
+
+                    <button type="submit">Submit Booking</button>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         8. CONTACT SECTION
+         ===================================================== -->
+    <section id="contact" class="contact-section">
+
+        <div class="contact-container">
+
+            <h2>Have Questions About Your Stay?</h2>
+
+            <p>
+                We would love to hear from you. Contact us to enquire
+                about available accommodation, travel dates, and
+                details that can help you plan your visit to Watamu.
+            </p>
+
+            <div class="contact-details">
+
+                <h3>Contact Information</h3>
+
+                <p>
+                    <strong>Business:</strong>
+                    Ocean Rose Apartments
+                </p>
+
+                <p>
+                    <strong>Location:</strong>
+                    Watamu, Kilifi County, Kenya
+                </p>
+
+                <p>
+                    <strong>Phone / WhatsApp:</strong>
+                    <a href="tel:INSERT_VERIFIED_NUMBER">
+                        +254792174478
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:INSERT_VERIFIED_EMAIL">
+                        gitonga5671@gmail.com
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         9. FOOTER
+         ===================================================== -->
+    <footer class="footer">
+
+        <p>
+            &copy; 2026 Ocean Rose Apartments.
+            All rights reserved.
+        </p>
+
+        <p>
+            Located in Watamu, Kilifi County, Kenya.
+        </p>
+
+    </footer>
+
+</body>
+</html>
